@@ -4,7 +4,7 @@ class primeFactors
       {
         let primes=[]
         if(n > 1){
-          primes.push(2);
+          primes.push(n);
         }
         return primes;
       }
