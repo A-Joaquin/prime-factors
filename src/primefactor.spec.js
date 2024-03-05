@@ -14,5 +14,10 @@ describe("Prime factors", () => {
     it("generate factors of 3", () => {
         let primefactors=new primeFactors();
         expect(primefactors.generate(3)).toEqual([3]);
-      });
+    });
+
+    it("generate factors of 4", () => {
+      let primefactors=new primeFactors();
+      expect(primefactors.generate(4)).toEqual([2,2]);
+    });
   });
